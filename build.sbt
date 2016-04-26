@@ -1,4 +1,4 @@
-name := "Lift 3.0 starter template"
+name := "Lift 3.0 starter - LiftScreen Exploration"
 
 version := "0.1.0"
 

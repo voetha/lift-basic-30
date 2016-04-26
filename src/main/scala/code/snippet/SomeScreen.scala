@@ -25,10 +25,12 @@ class FooScreen extends LiftScreen {
 
 class FooScreen2 extends LiftScreen {
   val shortAddr = field("Short Address", "", FieldBinding("shortAddr", FieldBinding.Template))
+  // The FieldBinding.Self should be using the contents of the field block, e.g. 
+  // <div id="customBinding_alias_field"> ... </div>
   val alias = field("Alias", "", FieldBinding("alias",FieldBinding.Self))
   val longAddr = field("Long Address", "")
 
-  val formName = "customBinding2"
+  val formName = "customBinding"
 
 
   def finish() {

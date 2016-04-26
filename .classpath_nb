@@ -1,4 +1,4 @@
-<classpath name="Lift 3.0 starter template" id="lift_basic">
+<classpath name="Lift 3.0 starter - LiftScreen Exploration" id="ak-lift-basic-30">
   <classpathentry kind="src" path="src/main/scala" output="target/scala-2.11/classes" scope="compile" managed="false"/>
   <classpathentry kind="src" path="src/main/java" output="target/scala-2.11/classes" scope="compile" managed="false"/>
   <classpathentry kind="src" path="target/scala-2.11/src_managed/main" output="target/scala-2.11/classes" scope="compile" managed="true"/>
