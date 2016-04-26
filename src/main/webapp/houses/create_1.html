@@ -1,14 +1,8 @@
 <div id="main" class="lift:surround?with=default;at=content">
     <h2>Create houses form</h2>
     <div id="houseStuff" >
-        <!--        <div data-lift="HouseScreen">
-        
-                </div>-->
-
         <div class="form">
-            <div class="lift:FooScreen2">
-                <!-- the alias field should use the custom field layout below.. 
-                as it uses FieldBinding.Self .. yet it doesn't show up at all-->
+            <div data-lift="FooScreen2" class="fields">
                 <div id="customBinding_alias_field">
                     <i>Something so creatively custom it couldn't possibly fit the mold...</i>
                     <div>
@@ -22,9 +16,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- I had assumed that the arrangements on the fields in the template should matter...
-                unfortunately, it doesn't - in the renderd markup, the fields are ordered : Short Address, [missing] Alias, Long Address
-                , which is in the same order as they're defined in the snippet -->
+						    <div class="fieldContainer">
+								    <label class="label"></label>
+								    <span class="help"></span>
+								    <div class="errors">
+								      	<div class="error"></div>
+								    </div>
+								    <span class="value"></span>
+						    </div>
                 <div id="customBinding_shortAddr_field"></div>
             </div>
             <div id="wizardAllResults">

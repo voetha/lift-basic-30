@@ -32,6 +32,7 @@ class FooScreen2 extends LiftScreen {
 
   val formName = "customBinding"
 
+  override def allTemplate = savedDefaultXml
 
   def finish() {
     //    AjaxOnDone.set(SetHtml("wizardAllResults", <b>All done!</b>))
